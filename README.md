@@ -19,9 +19,9 @@
    * произвольные [пробельные символы](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html#isWhitespace(char)).
 3. При выполнении задания можно считать, что для представления входных данных и промежуточных результатов достаточен тип int.
 4. Перед выполнением задания ознакомьтесь с документацией к классам [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) и [Integer](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html).
-5. Для отладочного вывода используйте [System.err](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html#err), тогда он будет игнорироваться проверяющей программой.\
+5. Для отладочного вывода используйте [System.err](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html#err), тогда он будет игнорироваться проверяющей программой.
 ### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/SumFloat.java)
-Float\
+Float
   * Входные данные являются 32-битными числами с формате с плавающей точкой
   * Класс должен иметь имя `SumFloat`
 
@@ -34,7 +34,7 @@ Float\
 Примеры работы программы:\
 ![image](https://github.com/dandolya/Introduction-to-Programming/assets/117770118/7587f1bf-e432-4ae5-b42a-ccaf6c90ca9d)
 ### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/ReverseEven.java)
-Even\
+Even
   * Выведите (в реверсивном порядке) только четные числа
   * Класс должен иметь имя ReverseEven
 
