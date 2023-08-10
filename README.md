@@ -1,4 +1,4 @@
-# Introduction-to-Programming
+# [Introduction-to-Programming](https://github.com/dandolya/Introduction-to-Programming)
 
 ## [Домашнее задание 2. Сумма чисел](https://github.com/dandolya/Introduction-to-Programming/blob/main/Sum.java)
 1. Разработайте класс `Sum`, который при запуске из командной строки будет складывать переданные в качестве аргументов целые числа и выводить их сумму на консоль.
@@ -38,7 +38,7 @@
 5. Примеры работы программы:\
 ![image](https://github.com/dandolya/Introduction-to-Programming/assets/117770118/9f5a257d-145c-4634-af3d-af746b0f9e52)
 
-## [Домашнее задание 5. Свой сканер](https://github.com/dandolya/Introduction-to-Programming/blob/main/Scanner.java)
+## [Домашнее задание 5. Свой сканер](https://github.com/dandolya/Introduction-to-Programming/blob/main/MyScanner.java)
 1. Реализуйте свой аналог класса [Scanner](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html) на основе [Reader](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Reader.html).
 2. Примените разработанный `Scanner` для решения задания «Реверс».
 3. Примените разработанный `Scanner` для решения задания «Статистика слов».
