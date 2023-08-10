@@ -1,4 +1,4 @@
-# [Introduction-to-Programming](https://github.com/dandolya/Introduction-to-Programming)
+# [Введение в программировние](https://github.com/dandolya/Introduction-to-Programming)
 
 ## [Домашнее задание 2. Сумма чисел](https://github.com/dandolya/Introduction-to-Programming/blob/main/Sum.java)
 1. Разработайте класс `Sum`, который при запуске из командной строки будет складывать переданные в качестве аргументов целые числа и выводить их сумму на консоль.
