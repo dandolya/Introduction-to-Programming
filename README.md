@@ -57,4 +57,4 @@
 6. Для реализации программы используйте Collections Framework.
 7. Сложный вариант. Реализуйте и примените класс `IntList`, компактно хранящий список целых чисел.
 8. Примеры работы программы:\
-![image](https://github.com/dandolya/Introduction-to-Programming/assets/117770118/58e5aa2d-c43f-454d-bf8e-5cd3b8a5e53a)
+
