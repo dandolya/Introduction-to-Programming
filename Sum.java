@@ -14,7 +14,7 @@ public class Sum {
 							break;
 						}	
 					}
-					mySum += Integer.parseInt(args[i].substring(j, lastnum+1));
+					mySum += Integer.parseInt(args[i].substring(j, lastnum + 1));
 					j += k;
 				}
 			}
