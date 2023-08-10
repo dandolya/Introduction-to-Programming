@@ -19,7 +19,11 @@
    * произвольные [пробельные символы](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Character.html#isWhitespace(char)).
 3. При выполнении задания можно считать, что для представления входных данных и промежуточных результатов достаточен тип int.
 4. Перед выполнением задания ознакомьтесь с документацией к классам [String](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html) и [Integer](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Integer.html).
-5. Для отладочного вывода используйте [System.err](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html#err), тогда он будет игнорироваться проверяющей программой.
+5. Для отладочного вывода используйте [System.err](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html#err), тогда он будет игнорироваться проверяющей программой.\
+### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/SumFloat.java)
+Float\
+  * Входные данные являются 32-битными числами с формате с плавающей точкой
+  * Класс должен иметь имя `SumFloat`
 
 ## [Домашнее задание 3. Реверс](https://github.com/dandolya/Introduction-to-Programming/blob/main/Reverse.java)
 1. Разработайте класс `Reverse`, читающий числа из [стандартного ввода](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html#in), и выводящий их на [стандартный вывод](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/System.html#out) в обратном порядке.
@@ -29,6 +33,10 @@
 5. Для чтения чисел используйте класс [Scanner](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html).
 Примеры работы программы:\
 ![image](https://github.com/dandolya/Introduction-to-Programming/assets/117770118/7587f1bf-e432-4ae5-b42a-ccaf6c90ca9d)
+### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/ReverseEven.java)
+Even\
+  * Выведите (в реверсивном порядке) только четные числа
+  * Класс должен иметь имя ReverseEven
 
 ## [Домашнее задание 4. Статистика слов](https://github.com/dandolya/Introduction-to-Programming/blob/main/WordStatInput.java)
 1. Разработайте класс `WordStatInput`, подсчитывающий статистику встречаемости слов во входном файле.
