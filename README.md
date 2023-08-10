@@ -36,7 +36,7 @@ Float:
 ### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/ReverseEven.java)
 Even:
   * Выведите (в реверсивном порядке) только четные числа
-  * Класс должен иметь имя ReverseEven
+  * Класс должен иметь имя `ReverseEven`
 
 ## [Домашнее задание 4. Статистика слов](https://github.com/dandolya/Introduction-to-Programming/blob/main/WordStatInput.java)
 1. Разработайте класс `WordStatInput`, подсчитывающий статистику встречаемости слов во входном файле.
@@ -48,7 +48,7 @@ Even:
 ### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/WordStatWords.java)
 Words:
   * В выходном файле слова должны быть упорядочены в лексикографическом порядке
-  * Класс должен иметь имя WordStatWords
+  * Класс должен иметь имя `WordStatWords`
 
 ## [Домашнее задание 5. Свой сканер](https://github.com/dandolya/Introduction-to-Programming/blob/main/MyScanner.java)
 1. Реализуйте свой аналог класса [Scanner](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/util/Scanner.html) на основе [Reader](https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/io/Reader.html).
@@ -62,7 +62,7 @@ Words:
 ### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/ReverseOct.java)
 Oct:
   * Во вводе и выводе используются числа в восьмеричной системе счисления
-  * Класс должен иметь имя ReverseOct
+  * Класс должен иметь имя `ReverseOct`
 
 ## [Домашнее задание 6. Статистика слов++](https://github.com/dandolya/Introduction-to-Programming/blob/main/Wspp.java)
 1. Разработайте класс `Wspp`, который будет подсчитывать статистику встречаемости слов во входном файле.
@@ -77,9 +77,9 @@ Oct:
 ### [Модификации](https://github.com/dandolya/Introduction-to-Programming/blob/main/WsppPosition.java)
 Position:
   * Вместо номеров вхождений во всем файле надо указывать <номер строки>:<номер в строке>
-  * Класс должен иметь имя WsppPosition
+  * Класс должен иметь имя `WsppPosition`
 
-## [Домашнее задание 7. Разметка]()
+## [Домашнее задание 7. Разметка](https://github.com/dandolya/Introduction-to-Programming/tree/main/markup)
 1. Разработайте набор классов для текстовой разметки.
 2. Класс `Paragraph` может содержать произвольное число других элементов разметки и текстовых элементов.
 3. Класс `Text` – текстовый элемент.
@@ -109,4 +109,9 @@ Position:
 Вызов `paragraph.toMarkdown(new StringBuilder())` должен заполнять переданный `StringBuilder` следующим содержимым:\
     `__1~2*34*5~6__`\
 Разработанные классы должны находиться в пакете markup.
-
+### [Модфификации](https://github.com/dandolya/Introduction-to-Programming/tree/main/markup)
+Html:
+    Дополнительно реализуйте метод toHtml, генерирующий HTML-разметку:
+        *выделеный текст окружается тегом `em`;
+        *сильно выделеный текст окружается тегом `strong`;
+        *зачеркнутый текст окружается тегом `s`.
